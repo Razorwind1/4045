@@ -11,6 +11,11 @@ public class statsCalculatorController {
 	public String start() {
 		return "start";
 	}
+	//Method for if there is no endpoint
+	@RequestMapping("/")
+	public String index() {
+		return "start";
+	}
 	
 	
 }
