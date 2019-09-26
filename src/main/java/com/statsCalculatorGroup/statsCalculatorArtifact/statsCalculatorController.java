@@ -16,6 +16,9 @@ public class statsCalculatorController {
 	public String index() {
 		return "start";
 	}
-	
-	
+	//Method for url/endpoint
+	@RequestMapping("/heyThere")
+	public String heyThere() {
+		return "heyThere";
+		}
 }
